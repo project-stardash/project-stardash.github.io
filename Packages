@@ -1,0 +1,8 @@
+Package: com.project-stardash.droidios
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Nathan <natan.mudia@gmail.com>
+Filename: debs/droidios.deb
+Size: 15420
+SileoDepiction: https://github.io
+Description: The All in One Android Experience With the PLay Store and Settings built in too.
