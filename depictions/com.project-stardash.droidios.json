@@ -1,1 +1,65 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "DroidiOS Settings UI"
+        },
+        {
+          "class": "DepictionSubheadView",
+          "title": "Bring the Material 3 look to iOS",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "This tweak completely redesigns your stock iOS Settings app. It replaces native layouts with clean **Android-style cards**, custom toggles, and Material You design elements.",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Features"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Android-style Settings layout\n- Custom Material You toggle switches\n- Round profile avatars\n- Clean search bar styling",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Screenshots"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{160, 284}",
+          "screenshots": [
+            {
+              "url": "https://github.io",
+              "accessibilityText": "Main Settings View"
+            },
+            {
+              "url": "https://github.io",
+              "accessibilityText": "Toggles View"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### v1.0.0\n- Initial release\n- Full support for rootless iOS jailbreaks",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}
 
